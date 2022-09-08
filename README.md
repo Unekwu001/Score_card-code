@@ -9,7 +9,7 @@ functions: 5
 function grader(a) - This function takes an argument (a) and passes it through some conditional statements to verify if a student has passed or failed.
 
 
-function total() - This adds all scores from 5 subjects.
+function total() - This adds all scores from 5 subjects. It makes use of the document.getElementById('').value to fetch the value of each input tag.
 
 
 function average5(arg) - This function takes the total() function as an argument and returns the average of the total.
